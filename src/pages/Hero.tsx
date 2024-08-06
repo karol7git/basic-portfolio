@@ -1,5 +1,12 @@
 import photo from "../assets/photo.png";
+import Modal from "../components/Modal";
+import { useState } from "react";
+
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <section
       id="hero"
@@ -18,13 +25,12 @@ const Hero = () => {
         </p>
 
         <div className="mt-5 flex justify-center lg:justify-start">
-          <a
-            href="/cv-sample.pdf"
-            className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
-            aria-current="page"
+          <button
+            onClick={openModal}
+            className="block rounded-md bg-gray-900 px-4 py-2 text-base font-medium text-white"
           >
             Hoja de vida
-          </a>
+          </button>
         </div>
       </div>
 
@@ -35,6 +41,7 @@ const Hero = () => {
           className="w-full h-full max-w-lg rounded-full"
         />
       </div>
+      <Modal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };
