@@ -20,7 +20,7 @@ const Hero = () => {
             className="rounded-md bg-custom-green hover:bg-custom-green-hover px-3 py-2 text-sm font-medium text-white transition-colors duration-300"
             aria-current="page"
           >
-            Mira mi portafolio
+            Proyectos
           </a>
         </div>
       </div>
