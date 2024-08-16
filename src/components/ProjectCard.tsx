@@ -14,11 +14,11 @@ const ProjectCard: React.FC<Props> = ({
   siteURL,
 }) => {
   return (
-    <div className="relative group max-w-xs w-full overflow-hidden rounded-lg shadow-lg cursor-pointer">
+    <div className="relative group max-w-sm w-full overflow-hidden rounded-lg shadow-lg cursor-pointer transition-transform duration-300 transform hover:scale-105">
       <img
         src={imgURL}
         alt={title}
-        className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+        className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
       />
       <a
         href={siteURL}

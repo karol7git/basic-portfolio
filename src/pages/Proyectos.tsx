@@ -5,7 +5,7 @@ const Proyectos = () => {
       className=" h-600 flex flex-col flex-column justify-center lg:justify-around items-stretch p-5 space-y-10 lg:space-y-0 lg:space-x-10    "
     >
       <div className="text-center p-10">
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <h1 className="text-2xl mt-2 font-bold tracking-tight text-custom-green sm:text-4xl">
           Mis proyectos
         </h1>
         <h2 className=" mt-6 text-1xl text-gray-900 sm:text-3xl ">

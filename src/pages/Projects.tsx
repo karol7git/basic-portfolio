@@ -5,51 +5,55 @@ import ProjectCard from "../components/ProjectCard";
 
 const projects = [
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img1,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img2,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img3,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img1,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
 
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img2,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
 
   {
-    title: "lorem ipsum",
-    description: "lorem ipsum dolor assemt",
+    title: "titulo de proyecto",
+    description: "esta es una  descripción del proyecto",
     imgURL: img3,
-    siteURL: "https://flowbite.com/docs/components/card/#card-with-image",
+    siteURL: "https://ingeniuscapital.com/",
   },
 ];
 const Projects = () => {
   return (
-    <section id="projects">
-      <h1> Mis proyectos</h1>
-      <div className="flex flex-wrap gap-4 p-4">
+    <section id="projects" className="p-4">
+      <h1 className="text-2xl m-5 font-bold tracking-tight text-gray-300 sm:text-4xl text-center">
+        Mis proyectos
+      </h1>
+      <div className="flex flex-wrap justify-center gap-4">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4" key={index}>
+            <ProjectCard {...project} />
+          </div>
         ))}
       </div>
     </section>
