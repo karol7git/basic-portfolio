@@ -45,14 +45,14 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <>
+    <section id="projects">
       <h1> Mis proyectos</h1>
       <div className="flex flex-wrap gap-4 p-4">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
       </div>
-    </>
+    </section>
   );
 };
 export default Projects;

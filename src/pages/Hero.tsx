@@ -1,8 +1,12 @@
 import photo from "../assets/photo.png";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-center items-center p-8 lg:p-20 min-h-screen space-y-10 lg:space-y-0 ">
+    <section
+      id="hero"
+      className="flex flex-col lg:flex-row justify-center items-center p-8 lg:p-20 min-h-screen space-y-10 lg:space-y-0 "
+    >
       <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-8">
         <h6 className="text-4xl lg:text-6xl font-bold tracking-tight text-gray-100">
           Analista de datos
@@ -15,13 +19,15 @@ const Hero = () => {
           negocio.
         </p>
         <div className="mt-5 flex justify-center lg:justify-start">
-          <a
-            href="#"
-            className="rounded-md bg-custom-green hover:bg-custom-green-hover px-3 py-2 text-sm font-medium text-white transition-colors duration-300"
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer rounded-md bg-custom-green hover:bg-custom-green-hover px-3 py-2 text-sm font-medium text-white transition-colors duration-300"
             aria-current="page"
           >
             Proyectos
-          </a>
+          </Link>
         </div>
       </div>
       <div className="relative w-full lg:w-1/2 flex justify-center lg:justify-end lg:items-center">
