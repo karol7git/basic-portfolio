@@ -1,10 +1,11 @@
 import Nav from "./components/Nav";
 import Hero from "./pages/Hero";
-import Experiencia from "./pages/Experiencia";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Footer from "./components/Footer";
+
+import Experiencia from "./pages/Experiencia";
 import Divider from "@mui/material/Divider";
-import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <section id="projects">
         <Projects />
       </section>
+      <About />
+      <Footer />
     </>
   );
 }
