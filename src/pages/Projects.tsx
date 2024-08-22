@@ -1,6 +1,6 @@
-import img1 from "../assets/websitempire.webp";
-import img2 from "../assets/websitenoltic.jpg";
-import img3 from "../assets/websitesuso.jpg";
+import img1 from "../assets/website-image-sample1.webp";
+import img2 from "../assets/website-image-sample2.jpg";
+import img3 from "../assets/website-image-sample3.jpg";
 import ProjectCard from "../components/ProjectCard";
 
 const projects = [
