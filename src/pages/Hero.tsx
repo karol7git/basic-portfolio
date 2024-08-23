@@ -23,7 +23,7 @@ const Hero = () => {
             to="projects"
             smooth={true}
             duration={500}
-            className="cursor-pointer rounded-md bg-custom-green hover:bg-custom-green-hover px-3 py-2 text-sm font-medium text-white transition-colors duration-300"
+            className="cursor-pointer rounded-lg bg-custom-green hover:bg-custom-green-hover px-3 py-2 text-lg font-medium text-white transition-colors duration-300"
             aria-current="page"
           >
             Proyectos
