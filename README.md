@@ -1,6 +1,6 @@
-# Portafolio de Ricardo Muñoz
+# Portafolio Sample
 
-Este es un portafolio basico para Ricardo.
+
 
 ![image](https://github.com/user-attachments/assets/7922d3ad-2e47-427e-ae3b-c1c813774929)
 
