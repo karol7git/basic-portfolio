@@ -45,7 +45,7 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <section id="projects" className="p-4">
+<section id="projects" className="pt-4 lg:pt-8"> {/* Ajusta el padding superior aquí */}
       <h1 className="text-2xl m-5 font-bold tracking-tight text-gray-300 sm:text-4xl text-center">
         Mis proyectos
       </h1>
@@ -56,7 +56,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </section>
-  );
+    </section>  );
 };
 export default Projects;

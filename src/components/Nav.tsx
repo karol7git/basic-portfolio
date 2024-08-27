@@ -15,7 +15,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="top-0 left-0 w-full z-50 bg-gray-800">
+      <nav className="top-0 left-0 w-full z-50">
         <div className="px-4 sm:px-6 lg:px-8 w-full">
           <div className="relative flex h-16 items-center justify-between">
             {/* Mobile menu button */}

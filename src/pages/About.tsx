@@ -15,9 +15,9 @@ const About = () => {
             auxiliar contable.
           </p>
           <p className="mb-4 font-light">
-            Disfruto conocer personas, trabajar en proyectos personales,
-            estudiar nuevas cosas, jugar videojuegos y pasar mis fines de semana
-            ensayando nuevas recetas de cocina.
+          Análista de datos, Sólida trayectoria de procesos administrativos y financieros.
+          Contador, Experiencia consolidada como contador y afines.
+          Director financiero, Con Enfoque a la gestión de costos.
           </p>
         </div>
       </div>
