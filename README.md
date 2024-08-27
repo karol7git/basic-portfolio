@@ -1,6 +1,6 @@
 # Portafolio Sample
 
-
+Resource used for Hero component: https://getwaves.io/
 
 ![image](https://github.com/user-attachments/assets/7922d3ad-2e47-427e-ae3b-c1c813774929)
 
