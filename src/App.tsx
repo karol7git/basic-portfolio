@@ -1,10 +1,10 @@
 import Nav from "./components/Nav";
 import Hero from "./pages/Hero";
-import Experiencia from "./pages/Experiencia";
-import Proyectos from "./pages/Proyectos";
+import Projects from "./pages/Projects";
+import LogoCloud from "./pages/LogoClouds";
 import About from "./pages/About";
 import Footer from "./components/Footer";
-import Divider from "@mui/material/Divider";
+
 function App() {
   return (
     <>
@@ -12,16 +12,12 @@ function App() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="experiencia">
-        <Experiencia />
+      <section id="projects">
+        <Projects />
       </section>
-      <Divider />
-      <section id="proyectos">
-        <Proyectos />
-      </section>
-      <section id="about">
-        <About />
-      </section>
+      <LogoCloud />
+
+      <About />
       <Footer />
     </>
   );
