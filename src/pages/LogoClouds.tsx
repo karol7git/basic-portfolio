@@ -59,7 +59,7 @@ const logos = [
 
 const LogoCloud = () => {
   return (
-    <div className="py-8 mt-20 bg-custom-green-hover">
+    <div className="py-8 mt-20 ">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">
           Tecnologías usadas
